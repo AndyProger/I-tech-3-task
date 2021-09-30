@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img id="image" width="400px" height="400px" src="img/noimage.jpg" alt="text">
+    <select id="List">
+        <option value="" selected disabled hidden>Choose image</option>
+        <option value="img/cat.gif">Cat</option>
+        <option value="img/mops.gif">Dog</option>
+        <option value="img/rat.gif">Rat</option>
+        <option value="cannotbefound.gif">show me alt text</option>
+    </select>
+
+    <div>
+        <b>Change width</b> <br>
+        <input type="number" min="0" max="1000" step="100"  value="400" id="chWidth">
+    </div>
+
+    <div>
+        <b>Change height</b> <br>
+        <input type="number" min="0" max="1000" step="100" value="400" id="chHeight">
+    </div>
+
+    <div>
+        <b>Change border size</b> <br>
+        <input type="number" min="0" max="10" step="1" value="0" id="chBorder">
+    </div>
+
+    <div>
+        <b>Change alt text</b> <br>
+        <input type="text" id="chAltText">
+    </div>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>
